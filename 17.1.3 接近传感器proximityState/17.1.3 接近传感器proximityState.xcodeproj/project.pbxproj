@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0A906891E9DB53A00754220 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A906881E9DB53A00754220 /* main.m */; };
+		C0A9068C1E9DB53A00754220 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A9068B1E9DB53A00754220 /* AppDelegate.m */; };
+		C0A9068F1E9DB53A00754220 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A9068E1E9DB53A00754220 /* ViewController.m */; };
+		C0A906921E9DB53A00754220 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0A906901E9DB53A00754220 /* Main.storyboard */; };
+		C0A906941E9DB53A00754220 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0A906931E9DB53A00754220 /* Assets.xcassets */; };
+		C0A906971E9DB53B00754220 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0A906951E9DB53B00754220 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C0A906841E9DB53A00754220 /* 17.1.3 接近传感器proximityState.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "17.1.3 接近传感器proximityState.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0A906881E9DB53A00754220 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C0A9068A1E9DB53A00754220 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C0A9068B1E9DB53A00754220 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C0A9068D1E9DB53A00754220 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C0A9068E1E9DB53A00754220 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C0A906911E9DB53A00754220 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0A906931E9DB53A00754220 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0A906961E9DB53B00754220 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C0A906981E9DB53B00754220 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0A906811E9DB53A00754220 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0A9067B1E9DB53900754220 = {
+			isa = PBXGroup;
+			children = (
+				C0A906861E9DB53A00754220 /* 17.1.3 接近传感器proximityState */,
+				C0A906851E9DB53A00754220 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0A906851E9DB53A00754220 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0A906841E9DB53A00754220 /* 17.1.3 接近传感器proximityState.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0A906861E9DB53A00754220 /* 17.1.3 接近传感器proximityState */ = {
+			isa = PBXGroup;
+			children = (
+				C0A9068A1E9DB53A00754220 /* AppDelegate.h */,
+				C0A9068B1E9DB53A00754220 /* AppDelegate.m */,
+				C0A9068D1E9DB53A00754220 /* ViewController.h */,
+				C0A9068E1E9DB53A00754220 /* ViewController.m */,
+				C0A906901E9DB53A00754220 /* Main.storyboard */,
+				C0A906931E9DB53A00754220 /* Assets.xcassets */,
+				C0A906951E9DB53B00754220 /* LaunchScreen.storyboard */,
+				C0A906981E9DB53B00754220 /* Info.plist */,
+				C0A906871E9DB53A00754220 /* Supporting Files */,
+			);
+			path = "17.1.3 接近传感器proximityState";
+			sourceTree = "<group>";
+		};
+		C0A906871E9DB53A00754220 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0A906881E9DB53A00754220 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0A906831E9DB53A00754220 /* 17.1.3 接近传感器proximityState */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0A9069B1E9DB53B00754220 /* Build configuration list for PBXNativeTarget "17.1.3 接近传感器proximityState" */;
+			buildPhases = (
+				C0A906801E9DB53A00754220 /* Sources */,
+				C0A906811E9DB53A00754220 /* Frameworks */,
+				C0A906821E9DB53A00754220 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "17.1.3 接近传感器proximityState";
+			productName = "17.1.3 接近传感器proximityState";
+			productReference = C0A906841E9DB53A00754220 /* 17.1.3 接近传感器proximityState.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0A9067C1E9DB53900754220 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Liz;
+				TargetAttributes = {
+					C0A906831E9DB53A00754220 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 785Y3X4B8V;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C0A9067F1E9DB53900754220 /* Build configuration list for PBXProject "17.1.3 接近传感器proximityState" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0A9067B1E9DB53900754220;
+			productRefGroup = C0A906851E9DB53A00754220 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0A906831E9DB53A00754220 /* 17.1.3 接近传感器proximityState */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0A906821E9DB53A00754220 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A906971E9DB53B00754220 /* LaunchScreen.storyboard in Resources */,
+				C0A906941E9DB53A00754220 /* Assets.xcassets in Resources */,
+				C0A906921E9DB53A00754220 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0A906801E9DB53A00754220 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A9068F1E9DB53A00754220 /* ViewController.m in Sources */,
+				C0A9068C1E9DB53A00754220 /* AppDelegate.m in Sources */,
+				C0A906891E9DB53A00754220 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C0A906901E9DB53A00754220 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0A906911E9DB53A00754220 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C0A906951E9DB53B00754220 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0A906961E9DB53B00754220 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0A906991E9DB53B00754220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C0A9069A1E9DB53B00754220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0A9069C1E9DB53B00754220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 785Y3X4B8V;
+				INFOPLIST_FILE = "17.1.3 接近传感器proximityState/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.99ios.-7-1-3------proximityState";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C0A9069D1E9DB53B00754220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 785Y3X4B8V;
+				INFOPLIST_FILE = "17.1.3 接近传感器proximityState/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.99ios.-7-1-3------proximityState";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0A9067F1E9DB53900754220 /* Build configuration list for PBXProject "17.1.3 接近传感器proximityState" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0A906991E9DB53B00754220 /* Debug */,
+				C0A9069A1E9DB53B00754220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0A9069B1E9DB53B00754220 /* Build configuration list for PBXNativeTarget "17.1.3 接近传感器proximityState" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0A9069C1E9DB53B00754220 /* Debug */,
+				C0A9069D1E9DB53B00754220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0A9067C1E9DB53900754220 /* Project object */;
+}
